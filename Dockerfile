@@ -32,7 +32,7 @@ COPY --from=build /app/publish .
 
 # Render injects PORT env var automatically
 ENV ASPNETCORE_ENVIRONMENT=Production
-ENV PORT=8080
+ENV ASPNETCORE_URLS=http://+:8080
 
 EXPOSE 8080
 
