@@ -1,0 +1,6 @@
+@EymtaxTasks_HostAddress = http://localhost:5262
+
+GET {{EymtaxTasks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
